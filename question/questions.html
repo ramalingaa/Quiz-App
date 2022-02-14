@@ -7,11 +7,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
     <link rel="stylesheet" href="https://ragaui.netlify.app/Components.css" />
     <link rel="stylesheet" href="questions.css" />
     <title>Document</title>
 </head>
 <body>
+    
     <main class="questions-main-container">
         <h1 class="questions-title">Quiz of Thrones</h1>
         <section class="question-card-wrapper">
@@ -81,8 +84,22 @@
                 <button class="btn">Crushing his skull</button>
                 <button class="btn">With Spear</button>
             </div>
-            <button class="btn btn-submit">Check Score</button>
+            <button class="btn btn-submit"><a href="../result/result.html" class=""btn-link>Check Score</a></button>
         </section>
+
+        <div class="quiz-rules-page" id="rules-page">
+            
+            <ul class="lists quiz-rules-list">
+                <i class="fas fa-times dismiss-icon" id="dismiss-btn"></i>
+                <p class="list-title">Quiz Rules</p>
+                <li>Stay on the window till you submit your score </li>
+                <li>No googling!</li>
+                <li>No negative marks</li>
+                <li>Can discuss with your friends</li>
+                <li></li>
+            </ul>
+        </div>
     </main>
+    <script type="text/javascript" src="question.js"></script>
 </body>
 </html>
